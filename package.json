@@ -1,0 +1,17 @@
+{
+  "name": "lapanetteria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass src/scss/style.scss src/dist/css/style.css",
+    "watch-css": "sass --watch src/scss/style.scss src/dist/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.99.0"
+  }
+}
