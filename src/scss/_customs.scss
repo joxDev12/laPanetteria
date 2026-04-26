@@ -1,0 +1,18 @@
+@use "colors" as *;
+
+
+// navbar
+$navbar-light-active-color: $brown-dark;
+$nav-link-font-weight: bold;
+$nav-underline-border-width: .125rem;
+
+$navbar-light-icon-color: $brown-main;
+$navbar-light-color: $brown-main;
+$navbar-light-toggler-border-color: $brown-main;
+
+
+//btn
+$btn-close-width: 1.4em;
+$btn-close-color: $brown-main;
+$btn-close-opacity: .75;
+$btn-close-hover-opacity: .95;

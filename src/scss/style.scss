@@ -1,8 +1,14 @@
 @use "colors" as *;
 
-@use "../../node_modules/bootstrap/scss/bootstrap.scss" with (
+@use "customs" as *;
 
-$theme-colors: (
+@use "hero";
+
+@import "../../node_modules/bootstrap/scss/functions";
+
+
+@import "../../node_modules/bootstrap/scss/variables";
+$custom-colors: (
     "brown-main": $brown-main,
     "brown-light": $brown-light,
     "brown-dark": $brown-dark,
@@ -14,17 +20,10 @@ $theme-colors: (
     "txt1": $main-btn,
     "txt2": $hover-btn,
 
-    "gold": $gold,
-)
-);
-
-@import "../../node_modules/bootstrap/scss/functions";
-
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/variables-dark";
-
-@import "../../node_modules/bootstrap/scss/maps";
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/root";
+    "gold": $gold 
+);  
 
 
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
