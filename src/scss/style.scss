@@ -1,6 +1,22 @@
 @use "colors" as *;
 
-@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" with (
+
+$theme-colors: (
+    "brown-main": $brown-main,
+    "brown-light": $brown-light,
+    "brown-dark": $brown-dark,
+
+    "beige-main": $beige-main,
+    "beige-light": $beige-light,
+    "beige-dark": $beige-dark,
+
+    "txt1": $main-btn,
+    "txt2": $hover-btn,
+
+    "gold": $gold,
+)
+);
 
 @import "../../node_modules/bootstrap/scss/functions";
 
