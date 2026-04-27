@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "sass src/scss/style.scss src/dist/css/style.css",
+    "build-css": "sass --queit src/scss/style.scss src/dist/css/style.css",
     "watch-css": "sass --watch --silence-deprecation=import --silence-deprecation=if-function --silence-deprecation=global-builtin --silence-deprecation=color-functions src/scss/style.scss src/dist/css/style.css"
   },
   "keywords": [],
