@@ -32,6 +32,10 @@
   flex-shrink: 0;
 }
 
+.svg-card {
+  color: #B07A4F;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
