@@ -1,18 +1,22 @@
 @use "colors" as *;
+@use "fonts" as *;
+// fonts
 
+$display-font-family: $playfair-display;
+$font-family-base: $inter;
 
 // navbar
-$navbar-light-active-color: $brown-dark;
+$navbar-light-active-color: $brown-light;
 $nav-link-font-weight: bold;
 $nav-underline-border-width: .125rem;
 
-$navbar-light-icon-color: $brown-main;
-$navbar-light-color: $brown-main;
-$navbar-light-toggler-border-color: $brown-main;
+$navbar-light-icon-color: $brown;
+$navbar-light-color: $brown;
+$navbar-light-toggler-border-color: $brown;
 
 
 //btn
 $btn-close-width: 1.4em;
-$btn-close-color: $brown-main;
+$btn-close-color: $brown;
 $btn-close-opacity: .75;
 $btn-close-hover-opacity: .95;

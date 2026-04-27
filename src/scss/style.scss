@@ -1,26 +1,35 @@
 @use "colors" as *;
 
+@use "fonts" as *;
+
 @use "customs" as *;
 
 @use "hero";
+
 
 @import "../../node_modules/bootstrap/scss/functions";
 
 
 @import "../../node_modules/bootstrap/scss/variables";
 $custom-colors: (
-    "brown-main": $brown-main,
-    "brown-light": $brown-light,
-    "brown-dark": $brown-dark,
 
-    "beige-main": $beige-main,
+    "white": $white,
+
+    "gray-light": $gray-light,
+    "gray": $gray,
+    "gray-dark": $gray-dark,
+
     "beige-light": $beige-light,
     "beige-dark": $beige-dark,
 
-    "txt1": $main-btn,
-    "txt2": $hover-btn,
+    "gold": $gold,
 
-    "gold": $gold 
+    "brown-light": $brown-light,
+    "brown": $brown,
+    "brown-dark": $brown-dark,
+
+    "black": $black,
+  
 );  
 
 
