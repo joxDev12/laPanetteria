@@ -1,0 +1,16 @@
+.rev-card {
+    height: 22rem;
+}
+
+@media (max-width: 990px) {
+
+    #caroselloRecensioni .carousel-item-next:not(.carousel-item-start),
+    #caroselloRecensioni .active.carousel-item-end {
+        transform: translateY(100%);
+    }
+
+    #caroselloRecensioni .carousel-item-prev:not(.carousel-item-end),
+    #caroselloRecensioni .active.carousel-item-start {
+        transform: translateY(-100%);
+    }
+}

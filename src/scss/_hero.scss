@@ -11,6 +11,13 @@
             rgba(0, 0, 0, 0.1) 100%);
 }
 
+.hero-overlay2 {
+    background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0.72) 0%,
+            rgba(0, 0, 0, 0.45) 100%,
+            rgba(0, 0, 0, 0.1) 100%);
+}
+
 .spiga-separatore {
     display: flex;
     align-items: center;
@@ -23,17 +30,44 @@
 .spiga-line {
     flex: 1;
     height: 2px;
-    background-color: $beige-light;
+    background-color: $gold;
 }
 
 .spiga-grano {
     width: 100px;
     height: auto;
     display: block;
+    color: $gold;
+    flex-shrink: 0;
+}
+
+.spiga-separatore-hero {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    width: 260px;
+    color: $beige-light;
+    margin: 1.1rem 0;
+}
+
+.spiga-line-hero {
+    flex: 1;
+    height: 2px;
+    background-color: $beige-light;
+}
+
+.spiga-grano-hero {
+    width: 100px;
+    height: auto;
+    display: block;
     color: $beige-light;
     flex-shrink: 0;
 }
- 
+
 .svg-card{
-    color: $beige-dark;
+    color: $gold;
 } 
+
+.svg-about {
+    color: $beige-light;
+}

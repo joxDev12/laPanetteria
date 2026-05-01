@@ -9,6 +9,10 @@
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.45) 40%, rgba(0, 0, 0, 0.1) 100%);
 }
 
+.hero-overlay2 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.45) 100%, rgba(0, 0, 0, 0.1) 100%);
+}
+
 .spiga-separatore {
   display: flex;
   align-items: center;
@@ -21,10 +25,33 @@
 .spiga-line {
   flex: 1;
   height: 2px;
-  background-color: #C89B6D;
+  background-color: #E6B86A;
 }
 
 .spiga-grano {
+  width: 100px;
+  height: auto;
+  display: block;
+  color: #E6B86A;
+  flex-shrink: 0;
+}
+
+.spiga-separatore-hero {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  width: 260px;
+  color: #C89B6D;
+  margin: 1.1rem 0;
+}
+
+.spiga-line-hero {
+  flex: 1;
+  height: 2px;
+  background-color: #C89B6D;
+}
+
+.spiga-grano-hero {
   width: 100px;
   height: auto;
   display: block;
@@ -33,7 +60,11 @@
 }
 
 .svg-card {
-  color: #B07A4F;
+  color: #E6B86A;
+}
+
+.svg-about {
+  color: #C89B6D;
 }
 
 .prod-card h4, .prod-card .h4 {
@@ -49,6 +80,20 @@
   height: 640px;
 }
 
+.rev-card {
+  height: 22rem;
+}
+
+@media (max-width: 990px) {
+  #caroselloRecensioni .carousel-item-next:not(.carousel-item-start),
+  #caroselloRecensioni .active.carousel-item-end {
+    transform: translateY(100%);
+  }
+  #caroselloRecensioni .carousel-item-prev:not(.carousel-item-end),
+  #caroselloRecensioni .active.carousel-item-start {
+    transform: translateY(-100%);
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
@@ -6759,8 +6804,8 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 12px;
+  height: 12px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -6802,7 +6847,7 @@ textarea.form-control-lg {
 
 :root,
 [data-bs-theme=light] {
-  --bs-carousel-indicator-active-bg: #F5F1EC;
+  --bs-carousel-indicator-active-bg: #8B5E3C;
   --bs-carousel-caption-color: #F5F1EC;
   --bs-carousel-control-icon-filter: ;
 }
